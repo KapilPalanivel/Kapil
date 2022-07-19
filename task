@@ -1,0 +1,27 @@
+package kapil;
+
+import java.util.Scanner;
+
+public class task 
+{
+
+	public static void main(String[] args)
+	{
+		Scanner sa=new Scanner(System.in);
+		int loan,rate,intrst,mint,qint,hint,yint;
+		System.out.print("Enter the principal ammount:");
+		loan=sa.nextInt();
+		System.out.print("Enter the interest ammount:");
+		rate=sa.nextInt();
+		mint=rate*loan/100;
+		intrst=mint;
+		System.out.println("The principal ammount:"+loan);
+		System.out.println("The interest in 1 Month:"+mint);
+		qint=intrst*3;
+		System.out.println("The interest in quarter year:"+qint);
+		hint=mint*6;
+		System.out.println("The interest in half year:"+hint);
+		yint=mint*12;
+		System.out.println("The interst in a year:"+yint);
+	}
+}
