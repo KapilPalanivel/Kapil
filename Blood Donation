@@ -1,0 +1,33 @@
+package scanner;
+
+import java.util.Scanner;
+ 
+public class scaner 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner bd=new Scanner(System.in);
+		float age,weight;
+		System.out.print("     Enter the Donor's age :-");
+		age=bd.nextFloat();
+		if (age>=18)
+		{
+			System.out.print("     Enter the Donor's weight :-");
+			weight=bd.nextFloat();
+			if (weight>50)
+			{
+				System.out.println("     The donor can donate blood");
+			}
+			else
+			{
+				System.out.println( "     THe donor dont have enough weight" );
+				System.out.println("     The donor can't donate blood");
+			}
+		}
+		else
+		{
+			System.out.println("     The donor cant donate blood    ");
+		}
+	}
+}
