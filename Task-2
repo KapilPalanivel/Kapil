@@ -1,0 +1,80 @@
+package kapil;
+
+import java.util.Scanner;
+
+class sool{
+
+	public void blood() {
+		// TODO Auto-generated method stub
+		Scanner bd=new Scanner(System.in);
+		float age,weight;
+		System.out.print("     Enter the Donor's age :-");
+		age=bd.nextFloat();
+		if (age>=18)
+		{
+			System.out.print("     Enter the Donor's weight :-");
+			weight=bd.nextFloat();
+			if (weight>50)
+			{
+				System.out.println("     The donor can donate blood");
+			}
+			else
+			{
+				System.out.println( "     THe donor dont have enough weight" );
+				System.out.println("     The donor can't donate blood");
+			}
+		}
+		else
+		{
+			System.out.println("     The donor cant donate blood    ");
+		}
+	}}
+class hool
+{
+
+	public void voter() 
+	{
+		// TODO Auto-generated method stub
+		Scanner vo=new Scanner(System.in);
+		System.out.print("Enter your age :");
+		int age=vo.nextInt();
+		if (age>17)
+		{
+			System.out.print("Are you an Indian:");
+			boolean a =vo.nextBoolean();
+			if (a==true)
+			{
+				System.out.println("You can apply for voter ID");
+			}
+			else
+			{
+				System.out.println("Only idians can apply for voter ID");
+			}
+		}
+		else
+		{
+			System.out.println("You don't have age to get voter id");
+		}
+	}
+}
+public class Switch 
+{
+
+	public static void main(String[] args) 
+   {
+		 sool fer=new sool();
+		 hool het=new hool();
+		 Scanner des=new Scanner(System.in);
+		 System.out.print("Enter what to do (1-blood/2-voter):");
+		 short s=des.nextShort();
+		 if (s==1) 
+		 {
+			 fer.blood(); 
+		 }
+		 else if( s==2)
+		 {
+			 het.voter();
+		 }
+   }
+
+}
