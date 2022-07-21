@@ -1,0 +1,262 @@
+package kapil;
+
+import java.util.Scanner;
+
+public class gkvckvk 
+{
+
+	public static void main(String[] args)
+	{
+		Scanner me=new Scanner(System.in);
+		System.out.print("Enter Your Destinaton: (chennai,coimbatore,madurai,trichi)");
+		String place=me.nextLine();
+		if (place.equals("chennai"))
+		{
+			System.out.println("You've Selected :"+place);
+			System.out.print("Which Class Of Flight Do You Prefer:");
+			String type=me.nextLine();
+			if (type.equals("economy"))
+			{
+				System.out.println("You've Selected:"+type);
+				System.out.print("Enter The Price For Ticket:");
+				short ae=me.nextShort();
+				if (ae>=1500)
+				{
+					System.out.println("Your Ticket For Flight To "+place+" Was Reserved");
+					int bal;
+					bal= ae- 1500;
+					System.out.print("The Balance Ammount Is:"+bal);
+				}
+				else 
+				{
+					System.out.println("You Don't Have Enough Money");
+				}
+			}
+			else if(type.equals("first"))
+			{
+				System.out.println("You've Selected:"+type);
+				System.out.print("Enter The Price For Ticket:");
+				short ae=me.nextShort();
+				if (ae>=1500)
+				{
+					System.out.println("Your Ticket For Flight To "+place+" Was Reserved");
+					int bal;
+					bal= ae- 5000;
+					System.out.print("The Balance Ammount Is:"+bal);
+				}
+				else 
+				{
+					System.out.println("You Don't Have Enough Money");
+				}
+			}
+			else if(type.equals("business"))
+			{
+				System.out.println("You've Selected:"+type);
+				System.out.print("Enter The Price For Ticket:");
+				short ae=me.nextShort();
+				if (ae>=1500)
+				{
+					System.out.println("Your Ticket For Flight To "+place+" Was Reserved");
+					int bal;
+					bal= ae- 8000;
+					System.out.print("The Balance Ammount Is:"+bal);
+				}
+				else 
+				{
+					System.out.println("You Don't Have Enough Money");
+				}
+			}
+			else
+			{
+				System.out.println("There Is No Enough Money");
+			}
+		}
+		else if(place.equals("trichi"))
+		{
+			System.out.println("You've Selected :"+place);
+			System.out.print("Which Class Of Flight Do You Prefer:");
+			String type=me.nextLine();
+			if (type.equals("economy"))
+			{
+				System.out.println("You've Selected:"+type);
+				System.out.print("Enter The Price For Ticket:");
+				short ae=me.nextShort();
+				if (ae>=1500)
+				{
+					System.out.println("Your Ticket For Flight To "+place+" Was Reserved");
+					int bal;
+					bal= ae- 1500;
+					System.out.print("The Balance Ammount Is:"+bal);
+				}
+				else 
+				{
+					System.out.println("You Don't Have Enough Money");
+				}
+			}
+			else if(type.equals("first"))
+			{
+				System.out.println("You've Selected:"+type);
+				System.out.print("Enter The Price For Ticket:");
+				short ae=me.nextShort();
+				if (ae>=1500)
+				{
+					System.out.println("Your Ticket For Flight To "+place+" Was Reserved");
+					int bal;
+					bal= ae- 5000;
+					System.out.print("The Balance Ammount Is:"+bal);
+				}
+				else 
+				{
+					System.out.println("You Don't Have Enough Money");
+				}
+			}
+			else if(type.equals("business"))
+			{
+				System.out.println("You've Selected:"+type);
+				System.out.print("Enter The Price For Ticket:");
+				short ae=me.nextShort();
+				if (ae>=1500)
+				{
+					System.out.println("Your Ticket For Flight To "+place+" Was Reserved");
+					int bal;
+					bal= ae- 8000;
+					System.out.print("The Balance Ammount Is:"+bal);
+				}
+				else 
+				{
+					System.out.println("You Don't Have Enough Money");
+				}
+			}
+			else
+			{
+				System.out.println("There Is No Such Class");
+			}
+		}
+		else if(place.equals("madurai"))
+		{
+			System.out.println("You've Selected :"+place);
+			System.out.print("Which Class Of Flight Do You Prefer:");
+			String type=me.nextLine();
+			if (type.equals("economy"))
+			{
+				System.out.println("You've Selected:"+type);
+				System.out.print("Enter The Price For Ticket:");
+				short ae=me.nextShort();
+				if (ae>=1500)
+				{
+					System.out.println("Your Ticket For Flight To "+place+" Was Reserved");
+					int bal;
+					bal= ae- 1500;
+					System.out.print("The Balance Ammount Is:"+bal);
+				}
+				else 
+				{
+					System.out.println("You Don't Have Enough Money");
+				}
+			}
+			else if(type.equals("first"))
+			{
+				System.out.println("You've Selected:"+type);
+				System.out.print("Enter The Price For Ticket:");
+				short ae=me.nextShort();
+				if (ae>=1500)
+				{
+					System.out.println("Your Ticket For Flight To "+place+" Was Reserved");
+					int bal;
+					bal= ae- 5000;
+					System.out.print("The Balance Ammount Is:"+bal);
+				}
+				else 
+				{
+					System.out.println("You Don't Have Enough Money");
+				}
+			}
+			else if(type.equals("business"))
+			{
+				System.out.println("You've Selected:"+type);
+				System.out.print("Enter The Price For Ticket:");
+				short ae=me.nextShort();
+				if (ae>=1500)
+				{
+					System.out.println("Your Ticket For Flight To "+place+" Was Reserved");
+					int bal;
+					bal= ae- 8000;
+					System.out.print("The Balance Ammount Is:"+bal);
+				}
+				else 
+				{
+					System.out.println("You Don't Have Enough Money");
+				}
+			}
+			else
+			{
+				System.out.println("There Is No Such Class");
+			}
+		}	
+		else if(place.equals("coimbatore"))
+		{
+			System.out.println("You've Selected :"+place);
+			System.out.print("Which Class Of Flight Do You Prefer:");
+			String type=me.nextLine();
+			if (type.equals("economy"))
+			{
+				System.out.println("You've Selected:"+type);
+				System.out.print("Enter The Price For Ticket:");
+				short ae=me.nextShort();
+				if (ae>=1500)
+				{
+					System.out.println("Your Ticket For Flight To "+place+" Was Reserved");
+					int bal;
+					bal= ae- 1500;
+					System.out.print("The Balance Ammount Is:"+bal);
+				}
+				else 
+				{
+					System.out.println("You Don't Have Enough Money");
+				}
+			}
+			else if(type.equals("first"))
+			{
+				System.out.println("You've Selected:"+type);
+				System.out.print("Enter The Price For Ticket:");
+				short ae=me.nextShort();
+				if (ae>=1500) 
+				{
+					System.out.println("Your Ticket For Flight To "+place+" Was Reserved");
+					int bal;
+					bal= ae- 5000;
+					System.out.print("The Balance Ammount Is:"+bal);
+				}
+				else 
+				{
+					System.out.println("You Don't Have Enough Money");
+				}
+			}
+			else if(type.equals("business"))
+			{
+				System.out.println("You've Selected:"+type);
+				System.out.print("Enter The Price For Ticket:");
+				short ae=me.nextShort();
+				if (ae>=1500)
+				{
+					System.out.println("Your Ticket For Flight To "+place+" Was Reserved");
+					int bal;
+					bal= ae- 8000;
+					System.out.print("The Balance Ammount Is:"+bal);
+				}
+				else 
+				{
+					System.out.println("You Don't Have Enough Money");
+				}
+			}
+			else
+			{
+				System.out.println("There Is No Enough Money");
+			}
+		}
+		else
+		{
+			System.out.println("There Is No Service For These Destination");
+		}
+	}
+}
