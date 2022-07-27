@@ -1,0 +1,36 @@
+package kapil;
+
+import java.util.Scanner;
+
+public class first 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner sa=new Scanner(System.in);
+		System.out.println("Welcome To Saravana Bhavan ");
+		String fd="";
+		while (true)
+		{
+			System.out.print("Enter What Do You Like To Have:");
+			fd=sa.nextLine();
+			switch(fd)
+			{
+			case "dosa":case"poori":case"idly":case"pongal":
+				System.out.println("You'r Order Has Been Place");
+				break;
+			case"chappathi":
+				System.out.println("Soory Today We Did'nt Make You'r Prefrred Dish");
+				break;
+			default:
+				System.out.println("We Don't Have This Dish ");
+			}
+			System.out.print("Do You Want To Have Any Other Dish:");
+			String s=sa.nextLine();
+			if (s.equals("no"))
+			{
+				break;
+			}
+		}
+	}
+}   
